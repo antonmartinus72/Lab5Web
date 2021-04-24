@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contoh Javascript</title>
+	<script>
+		function validasiInput() {
+			var x = document.forms["formSaya"]["nama"].value;
+			if (x == "") {
+				alert("Nama harus diisi!");
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+	<form name="formSaya" action="submit.php" onsubmit="return validasiInput()" method="post">
+		<label for="nama" >Nama: </label>
+		<input type="text" name="nama" id="nama">
+  		<input type="submit" value="Submit">
+
+	</form>
+	<label for="nama"></label>
+
+</body>			
+</html>
