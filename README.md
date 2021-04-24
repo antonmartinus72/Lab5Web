@@ -142,7 +142,7 @@ Validasi input mengharuskan input sesui dengan kondisi yang sudah ditentukan.
 
 Pada contoh di atas input harus di isi dan akan tampil jendela dialog apabila melakukan submit sebelum input diisi.
 
-Cara kerja kode di bawah ini adalah mengecek terlebih dahulu data yang akan dikirimkan ke alamat tujuan. Input yang mempunyai atribut `name="nama"` adalah input yang harus di isi oleh user. Jika input tidak di isi data yang dikirimkan adalah kosong dan akan di cek oleh fungsi `validasiInput` sebelum benar-benar dikirim ke alamat "submit.php" pada html. Fungsi akan mengembalikan nilai `false` jika data yang dikirim kosong dan pengiriman data akan dibatalkan lalu memunculkan jendela dialog dengan pesan "Nama harus diisi!".
+Cara kerja kode di bawah ini adalah mengecek terlebih dahulu data yang akan dikirimkan ke alamat tujuan. Tag `<input>` yang mempunyai atribut value `name="nama"` adalah input yang harus di isi oleh user. Jika input tidak di isi data yang dikirimkan adalah kosong dan akan di cek oleh fungsi `validasiInput` sebelum benar-benar dikirim ke alamat "submit.php" pada form html. Fungsi akan mengembalikan nilai `false` jika data yang dikirim kosong dan pengiriman data akan dibatalkan lalu memunculkan jendela dialog dengan pesan "Nama harus diisi!".
  
 ![enter image description here](https://github.com/antonmartinus72/Lab5Web/raw/main/assets/11_code.jpg)
 
